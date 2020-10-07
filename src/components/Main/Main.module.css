@@ -1,0 +1,6 @@
+.Main {
+  width: 100%;
+  min-height: 67vh;
+  padding-top: 5px;
+  display: flex;
+}

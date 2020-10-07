@@ -1,0 +1,29 @@
+.CompanyDetails {
+  width: 100%;
+  color: #707070;
+}
+.option {
+  padding: 4% 0 4% 18%;
+  color: #707070;
+  border-top: 1px solid #969696;
+}
+.emptyDiv {
+  height: 60px;
+}
+
+.editProfile {
+  padding: 4% 0 4% 0;
+  text-align: center;
+  color: #124d51;
+  border: 1px solid #124d51;
+  font-weight: bold;
+  font-size: 19px;
+}
+.buyProducts {
+  padding: 4% 0 4% 0;
+  text-align: center;
+  margin-top: 10px;
+  color: #124d51;
+  background-color: rgb(221, 221, 146);
+  font-size: 17px;
+}

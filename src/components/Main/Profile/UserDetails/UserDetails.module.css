@@ -1,0 +1,45 @@
+.UserDetails {
+  width: 100%;
+  height: 67vh;
+  color: #707070;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10% 0;
+}
+.userProfile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userAvatar {
+  background-color: #dcdcdc;
+  color: #124d51;
+  width: 33%;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.userProfile > h3 {
+  color: #124d51;
+  margin-top: 15px;
+}
+.UserDetails p {
+  text-align: center;
+}
+.userInfo {
+  line-height: 27px;
+  padding-left: 18%;
+}
+.userInfo > div {
+  display: flex;
+  align-items: center;
+}
+.userInfo .logos {
+  color: #124d51;
+  margin-right: 5px;
+}
