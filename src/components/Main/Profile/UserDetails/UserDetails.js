@@ -1,5 +1,4 @@
 import React from "react";
-// import { BiUser } from "react-icons/bi";
 import { MdLocationOn, MdStar, MdMail } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
 

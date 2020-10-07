@@ -3,3 +3,8 @@
   border-right: 1px solid #969696;
   background-color: #fff;
 }
+@media screen and (max-width: 800px) {
+  .Profile {
+    display: none;
+  }
+}

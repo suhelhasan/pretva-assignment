@@ -1,5 +1,74 @@
 .Dashboard {
   width: 75%;
   background-color: #fff;
-  height: 200vh;
+  height: 150vh;
+  padding: 1%;
+  color: #707070;
+}
+@media screen and (max-width: 800px) {
+  .Dashboard {
+    width: 100%;
+    height: 120vh;
+  }
+  .Dashboard > .content > p {
+    margin-top: 25px;
+  }
+}
+.fullDashboard {
+  width: 100%;
+  padding: 1%;
+  height: 150vh;
+  background-color: #fff;
+  color: #707070;
+}
+.toggleButton {
+  color: #124d51;
+  font-size: 25px;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .toggleButton {
+    display: none;
+  }
+}
+.toggleButton:hover {
+  opacity: 0.8;
+}
+.content {
+  margin-left: 10%;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.innerNavBar {
+  display: flex;
+  margin-top: 60px;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cfcece;
+}
+@media screen and (max-width: 800px) {
+  .innerNavBar {
+    width: 90%;
+  }
+}
+.activeNavLink {
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 3px solid #124d51;
+}
+.navLink {
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+}
+.navLink:hover {
+  border-bottom: 3px solid #124d51;
 }

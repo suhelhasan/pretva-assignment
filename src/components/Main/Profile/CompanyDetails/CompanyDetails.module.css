@@ -7,6 +7,9 @@
   color: #707070;
   border-top: 1px solid #969696;
 }
+.option:first-child {
+  background-color: #e0dfdf;
+}
 .emptyDiv {
   height: 60px;
 }
@@ -18,6 +21,7 @@
   border: 1px solid #124d51;
   font-weight: bold;
   font-size: 19px;
+  background-color: #e0dfdf;
 }
 .buyProducts {
   padding: 4% 0 4% 0;
@@ -26,4 +30,5 @@
   color: #124d51;
   background-color: rgb(221, 221, 146);
   font-size: 17px;
+  border: none;
 }

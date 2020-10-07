@@ -2,6 +2,7 @@ import React from "react";
 import styling from "./Header.module.css";
 import Logo from "../../../images/logo.png";
 import { BsBellFill } from "react-icons/bs";
+import { FiMenu } from "react-icons/fi";
 
 export default function Header() {
   return (
@@ -22,6 +23,7 @@ export default function Header() {
         </select>
         <button className={styling.logoutButton}>Logout</button>
       </div>
+      <FiMenu className={styling.responsiveMenu} />
     </div>
   );
 }

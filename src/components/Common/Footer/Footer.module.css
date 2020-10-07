@@ -7,12 +7,25 @@
   align-items: center;
   color: #fff;
 }
+@media screen and (max-width: 800px) {
+  .Footer {
+    height: 40vh;
+  }
+}
 .FooterContent {
   width: 70%;
   height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 800px) {
+  .FooterContent {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .FooterContent a {
   color: #fff;
